@@ -6,9 +6,14 @@
 </head>
 <body>
 	
-	<form action="">
-		Nome Loja:<input type="text">
-		Data de Cadastro: 
+	<form action="/Loja/cadastraLoja" method="post">
+		Nome Loja: <input type="text" name="nomeLoja"> <br>
+		Descricao: <input type="text" name="descricaoLoja"> <br>
+		Data de Cadastro: <input type="text" name="dataCadastro"> <br>
+		<button type="submit">Cadastrar</button>
 	</form>
+	
+	<a href="listaLojaServlet"> <button>Cancelar</button> </a>
+	
 </body>
 </html>
